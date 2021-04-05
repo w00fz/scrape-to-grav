@@ -1,0 +1,19 @@
+{
+  "name": "scrape-to-grav",
+  "version": "1.0.0",
+  "description": "Scrape websites and convert them to Grav pages.",
+  "private": true,
+  "scripts": {
+    "static:example": "node static-example.js",
+    "dynamic:example": "node dynamic-example.js"
+  },
+  "keywords": [],
+  "author": "Djamil Legato (https://trilby.media)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "puppeteer": "^8.0.0",
+    "yaml": "^1.10.2"
+  }
+}
